@@ -20,9 +20,9 @@ const Project = () => {
   const opacity2 = useTransform(scrollYProgress, [0.2, 0.25, 0.3, 0.4], [0, 1 , 1 , 0]);
   const opacity3 = useTransform(scrollYProgress, [0.4, 0.6], [0, 1]);
 
-  const translateY1 = useTransform(adjustY, [0, 0.2], [0, -100]);
-  const translateY2 = useTransform(adjustY, [0.2,0.3, 0.4], [100, 0,-100]);
-  const translateY3 = useTransform(adjustY, [0.4, 0.6], [100, 0]);
+  const translateY1 = useTransform(adjustY, [0, 0.2], [0, -30]);
+  const translateY2 = useTransform(adjustY, [0.2,0.3, 0.4], [30, 0,-30]);
+  const translateY3 = useTransform(adjustY, [0.4, 0.6], [30, 0]);
 
 
   return (
